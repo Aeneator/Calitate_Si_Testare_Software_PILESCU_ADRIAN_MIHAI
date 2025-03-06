@@ -1,6 +1,6 @@
-package ro.cts.seminar1.modele;
+package seminar1.modele;
 
-import ro.cts.seminar1.interfete.IPredabil;
+import seminar1.interfete.IPredabil;
 
 public class Asistent extends Persoana implements IPredabil {
     private int idAsistent;

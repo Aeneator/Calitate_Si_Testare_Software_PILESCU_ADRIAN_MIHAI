@@ -1,4 +1,4 @@
-package ro.cts.seminar1.modele;
+package seminar1.modele;
 
 public class Student extends Persoana {
     private int idStudent;

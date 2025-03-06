@@ -1,8 +1,8 @@
-package ro.cts.seminar1.main;
+package seminar1.main;
 
-import ro.cts.seminar1.interfete.IPersoana;
-import ro.cts.seminar1.interfete.IPredabil;
+import seminar1.interfete.IPredabil;
 import ro.cts.seminar1.modele.*;
+import seminar1.modele.*;
 
 import java.util.ArrayList;
 import java.util.List;

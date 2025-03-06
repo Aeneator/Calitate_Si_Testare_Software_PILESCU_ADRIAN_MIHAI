@@ -1,4 +1,4 @@
-package ro.cts.seminar1.interfete;
+package seminar1.interfete;
 
 public interface IPredabil {
     void preda();
