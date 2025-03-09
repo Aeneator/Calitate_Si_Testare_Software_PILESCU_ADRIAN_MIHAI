@@ -9,21 +9,21 @@ import java.util.List;
 public class Curs {
     private String numeCurs;
     private int credite;
-    private IPredabil profesor;
+    private IPredabil cadruDidactic;
     private List<Student> studenti;
-
-    public Curs(String numeCurs, int credite, IPredabil profesor, List<Student> studenti) {
-        this.numeCurs = numeCurs;
-        this.credite = credite;
-        this.profesor = profesor;
-        this.studenti = studenti;
-    }
 
     public Curs() {
         numeCurs = "CTS";
         credite = 5;
-        profesor = new Profesor();
+        cadruDidactic = new Profesor();
         studenti = new ArrayList<>();
+    }
+
+    public Curs(String numeCurs, int credite, IPredabil cadruDidactic, List<Student> studenti) {
+        this.numeCurs = numeCurs;
+        this.credite = credite;
+        this.cadruDidactic = cadruDidactic;
+        this.studenti = studenti;
     }
 
     public String getNumeCurs() {
@@ -42,12 +42,12 @@ public class Curs {
         this.credite = credite;
     }
 
-    public IPredabil getProfesor() {
-        return profesor;
+    public IPredabil getCadruDidactic() {
+        return cadruDidactic;
     }
 
-    public void setProfesor(IPredabil profesor) {
-        this.profesor = profesor;
+    public void setCadruDidactic(IPredabil cadruDidactic) {
+        this.cadruDidactic = cadruDidactic;
     }
 
     public List<Student> getStudenti() {
@@ -65,7 +65,7 @@ public class Curs {
                 .append(this.credite)
                 .append(" puncte credite ")
                 .append(" predat de ")
-                .append(((IPersoana)this.profesor).getNume())
+                .append(((IPersoana)this.cadruDidactic).getNume())
                 .append(" are ")
                 .append(studenti.size())
                 .append(" studenti.");
@@ -76,7 +76,7 @@ public class Curs {
         StringBuilder sb = new StringBuilder("Pe data ")
                 .append(data)
                 .append(" profesorul ")
-                .append(((IPersoana)this.profesor).getNume())
+                .append(((IPersoana)this.cadruDidactic).getNume())
                 .append(" sustine examen cu urmatorii studenti: ");
 
         System.out.println(sb.toString());

@@ -7,26 +7,15 @@ public class Asistent extends Persoana implements IPredabil {
     private float salariu;
 
     public Asistent() {
-        super();
+        super("ASISTENT", 25);
+        this.idAsistent = 0;
+        this.salariu = 0;
     }
 
-    public Asistent(int varsta, String nume) {
-        super(varsta, nume);
-    }
-
-    @Override
-    public float calculeazaVenit() {
-        return salariu;
-    }
-
-    @Override
-    public int getVarsta() {
-        return super.getVarsta();
-    }
-
-    @Override
-    public String getNume() {
-        return super.getNume();
+    public Asistent(String nume, int varsta, int idAsistent, float salariu) {
+        super(nume, varsta);
+        this.idAsistent = idAsistent;
+        this.salariu = salariu;
     }
 
     public float getSalariu() {
@@ -43,6 +32,21 @@ public class Asistent extends Persoana implements IPredabil {
 
     public void setIdAsistent(int idAsistent) {
         this.idAsistent = idAsistent;
+    }
+
+    @Override
+    public float calculeazaVenit() {
+        return salariu;
+    }
+
+    @Override
+    public int getVarsta() {
+        return super.getVarsta();
+    }
+
+    @Override
+    public String getNume() {
+        return super.getNume();
     }
 
     @Override

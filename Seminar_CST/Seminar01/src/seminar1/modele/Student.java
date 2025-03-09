@@ -5,13 +5,17 @@ public class Student extends Persoana {
 
 
     public Student() {
-        super( 18,"NumeStudent");
-        idStudent = 0;
+        super("STUD22", 18);
+        this.idStudent = idStudent;
     }
 
-    public Student(int varsta, String nume, int idStudent) {
-        super(varsta, nume);
+    public Student(String nume, int varsta, int idStudent) {
+        super(nume, varsta);
         this.idStudent = idStudent;
+    }
+
+    public int getIdStudent() {
+        return idStudent;
     }
 
     @Override
