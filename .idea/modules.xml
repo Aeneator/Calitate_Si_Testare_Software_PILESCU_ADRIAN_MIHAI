@@ -3,10 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Calitate_Si_Testare_Software_PILESCU_ADRIAN_MIHAI.iml" filepath="$PROJECT_DIR$/Calitate_Si_Testare_Software_PILESCU_ADRIAN_MIHAI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_1/ClownFactory/ClownFactory.iml" filepath="$PROJECT_DIR$/Test_1/ClownFactory/ClownFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar_CST/Seminar01/Seminar01.iml" filepath="$PROJECT_DIR$/Seminar_CST/Seminar01/Seminar01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar_CST/Seminar02/Seminar02.iml" filepath="$PROJECT_DIR$/Seminar_CST/Seminar02/Seminar02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar_CST/Seminar03/Seminar03.iml" filepath="$PROJECT_DIR$/Seminar_CST/Seminar03/Seminar03.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar_CST/Seminar04/Seminar04.iml" filepath="$PROJECT_DIR$/Seminar_CST/Seminar04/Seminar04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar_CST/Seminar05/Seminar05.iml" filepath="$PROJECT_DIR$/Seminar_CST/Seminar05/Seminar05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_1/Subiect1/Subiect1.iml" filepath="$PROJECT_DIR$/Test_1/Subiect1/Subiect1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_1/Test_1.iml" filepath="$PROJECT_DIR$/Test_1/Test_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_1/ClownFactory/magnumopus.modele/magnumopus.modele.iml" filepath="$PROJECT_DIR$/Test_1/ClownFactory/magnumopus.modele/magnumopus.modele.iml" />
     </modules>
   </component>
 </project>
