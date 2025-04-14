@@ -11,6 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/Seminar_CST/Seminar04/Seminar04.iml" filepath="$PROJECT_DIR$/Seminar_CST/Seminar04/Seminar04.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar_CST/Seminar05/Seminar05.iml" filepath="$PROJECT_DIR$/Seminar_CST/Seminar05/Seminar05.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_1/Subiect1/Subiect1.iml" filepath="$PROJECT_DIR$/Test_1/Subiect1/Subiect1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_1/SubiectAbonament/SubiectAbonament.iml" filepath="$PROJECT_DIR$/Test_1/SubiectAbonament/SubiectAbonament.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_1/SubiectCinematograf/SubiectCinematograf.iml" filepath="$PROJECT_DIR$/Test_1/SubiectCinematograf/SubiectCinematograf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_1/SubiectRoboticArm/SubiectRoboticArm.iml" filepath="$PROJECT_DIR$/Test_1/SubiectRoboticArm/SubiectRoboticArm.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_1/Test_1.iml" filepath="$PROJECT_DIR$/Test_1/Test_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_1/ClownFactory/magnumopus.modele/magnumopus.modele.iml" filepath="$PROJECT_DIR$/Test_1/ClownFactory/magnumopus.modele/magnumopus.modele.iml" />
     </modules>
