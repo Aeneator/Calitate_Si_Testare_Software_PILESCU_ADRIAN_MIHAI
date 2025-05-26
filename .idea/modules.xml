@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Test_2/AdapterExample/AdapterExample.iml" filepath="$PROJECT_DIR$/Test_2/AdapterExample/AdapterExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/Calitate_Si_Testare_Software_PILESCU_ADRIAN_MIHAI.iml" filepath="$PROJECT_DIR$/Calitate_Si_Testare_Software_PILESCU_ADRIAN_MIHAI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_1/ClownFactory/ClownFactory.iml" filepath="$PROJECT_DIR$/Test_1/ClownFactory/ClownFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_2/DecoratorExample/DecoratorExample.iml" filepath="$PROJECT_DIR$/Test_2/DecoratorExample/DecoratorExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_2/DecoratorExample2/DecoratorExample2.iml" filepath="$PROJECT_DIR$/Test_2/DecoratorExample2/DecoratorExample2.iml" />
       <module fileurl="file://$PROJECT_DIR$/OneFileExamples/OneFileExamples.iml" filepath="$PROJECT_DIR$/OneFileExamples/OneFileExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_2/PlatformaStreaming/PlatformaStreaming.iml" filepath="$PROJECT_DIR$/Test_2/PlatformaStreaming/PlatformaStreaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProblemeCTS2025 - STB/ProblemeCTS2025 - STB.iml" filepath="$PROJECT_DIR$/ProblemeCTS2025 - STB/ProblemeCTS2025 - STB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProblemeCTS2025 - Spital/ProblemeCTS2025 - Spital.iml" filepath="$PROJECT_DIR$/ProblemeCTS2025 - Spital/ProblemeCTS2025 - Spital.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_2/RobotSoftware/RobotSoftware.iml" filepath="$PROJECT_DIR$/Test_2/RobotSoftware/RobotSoftware.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar_CST/Seminar01/Seminar01.iml" filepath="$PROJECT_DIR$/Seminar_CST/Seminar01/Seminar01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar_CST/Seminar02/Seminar02.iml" filepath="$PROJECT_DIR$/Seminar_CST/Seminar02/Seminar02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar_CST/Seminar03/Seminar03.iml" filepath="$PROJECT_DIR$/Seminar_CST/Seminar03/Seminar03.iml" />
@@ -15,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/Test_1/SubiectCinematograf/SubiectCinematograf.iml" filepath="$PROJECT_DIR$/Test_1/SubiectCinematograf/SubiectCinematograf.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_1/SubiectRoboticArm/SubiectRoboticArm.iml" filepath="$PROJECT_DIR$/Test_1/SubiectRoboticArm/SubiectRoboticArm.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_1/Test_1.iml" filepath="$PROJECT_DIR$/Test_1/Test_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_2/Test_2.iml" filepath="$PROJECT_DIR$/Test_2/Test_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_1/ClownFactory/magnumopus.modele/magnumopus.modele.iml" filepath="$PROJECT_DIR$/Test_1/ClownFactory/magnumopus.modele/magnumopus.modele.iml" />
     </modules>
   </component>

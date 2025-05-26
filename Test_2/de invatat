@@ -1,0 +1,14 @@
+Studiate:
+adapter
+facade (100%)
+decorator
+composite
+flyweight (80%)
+strategy (100%)
+observer (100%)
+chain of responsibility (90%)
+template method (80%)
+
+De studiat:
+proxy
+

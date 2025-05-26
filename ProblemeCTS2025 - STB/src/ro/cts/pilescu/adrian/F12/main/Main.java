@@ -1,0 +1,25 @@
+package ro.cts.pilescu.adrian.F12.main;
+
+//F.12. Trebuie implementat un modul care sa ii spuna calatorului ce mijloc de transport trebuie sa foloseasca in functie
+// de distanta pe care o are de parcurs. Astfel, daca un calator are de parcurs o distanta mai mica de 3 km,
+// este recomandat sa mearga cu Troleibuzul. Daca are o distanta cuprinsa intre 3 si 5 km i se recomanda sa
+// foloseasca autobuzul, iar daca are o distanta cuprinsa intre 5 km si 10 km, i se recomanda sa foloseasca Tramvaiul.
+// In cazul in care distanta este mai mare decat 10 km i se recomanda sa foloseasca Metroul.
+// Sa se implementeze acest modul in cadrul aplicatiei.
+
+import ro.cts.pilescu.adrian.F12.models.*;
+
+public class Main {
+    public static void main(String[] args) {
+        ChainHandler troleibuzHandler = new TroleibuzHandler();
+        ChainHandler autobuzHandler = new AutobuzHandler();
+        ChainHandler tramvaiHandler = new TramvaiHandler();
+        ChainHandler metrouHandler = new MetrouHandler();
+
+        troleibuzHandler.setNextHandler(autobuzHandler);
+        autobuzHandler.setNextHandler(tramvaiHandler);
+        tramvaiHandler.setNextHandler(metrouHandler);
+
+        troleibuzHandler.handleRequest(11);
+    }
+}

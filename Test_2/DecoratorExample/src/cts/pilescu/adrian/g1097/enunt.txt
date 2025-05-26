@@ -1,0 +1,6 @@
+Problem: Audio Player with Adapter Design Pattern
+
+You are designing a media player application. The core system supports playback for .mp3 files.
+However, there is an existing legacy media library that can play .mp4 and .vlc files through
+different methods, but it does not support .mp3. You want to make your system capable of
+playing .mp4 and .vlc files without modifying the legacy code.
